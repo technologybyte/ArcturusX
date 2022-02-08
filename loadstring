@@ -1,0 +1,1117 @@
+--Hazeldox#6530
+
+
+
+
+
+
+
+
+
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Key = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Key_2 = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Check = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Script = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_6 = Instance.new("UICorner")
+local Inf = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local Vega = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local Inf_2 = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
+local Inf_3 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
+local Inf_4 = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
+local Inf_5 = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
+local Bar = Instance.new("Frame")
+local x = Instance.new("TextLabel")
+local xx = Instance.new("TextButton")
+local TextLabel_17 = Instance.new("TextLabel")
+local Universal = Instance.new("ImageButton")
+local GamesB = Instance.new("ImageButton")
+local Games = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local UICorner_20 = Instance.new("UICorner")
+local Inf_6 = Instance.new("Frame")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
+local Vega_2 = Instance.new("Frame")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local Inf_7 = Instance.new("Frame")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
+local Inf_8 = Instance.new("Frame")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
+local Inf_9 = Instance.new("Frame")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
+local Inf_10 = Instance.new("Frame")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
+local Bar_2 = Instance.new("Frame")
+local x_2 = Instance.new("TextLabel")
+local xx_2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Key.Name = "Key"
+Key.Parent = ScreenGui
+Key.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+Key.Position = UDim2.new(0.598163843, 0, 0.595995247, 0)
+Key.Size = UDim2.new(0, 556, 0, 332)
+
+TextLabel.Parent = Key
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 25, 0, 23)
+TextLabel.Size = UDim2.new(0, 225, 0, 20)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Arcturus X - Software"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0, 20)
+TextLabel_2.Size = UDim2.new(0, 225, 0, 17)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "Key System"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner.CornerRadius = UDim.new(0, 12)
+UICorner.Parent = Key
+
+Key_2.Name = "Key"
+Key_2.Parent = Key
+Key_2.BackgroundColor3 = Color3.fromRGB(38, 42, 48)
+Key_2.BorderColor3 = Color3.fromRGB(84, 84, 85)
+Key_2.BorderSizePixel = 0
+Key_2.Position = UDim2.new(0.0449640304, 0, 0.451807231, 0)
+Key_2.Size = UDim2.new(0, 291, 0, 32)
+Key_2.Font = Enum.Font.Gotham
+Key_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Key_2.PlaceholderText = "key"
+Key_2.Text = ""
+Key_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Key_2.TextSize = 14.000
+Key_2.TextWrapped = true
+Key_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_2.Parent = Key_2
+
+TextLabel_3.Parent = Key
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 25, 0, 125)
+TextLabel_3.Size = UDim2.new(0, 225, 0, 17)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "Enter Key Here"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_4.Parent = Key
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 25, 0, 290)
+TextLabel_4.Size = UDim2.new(0, 225, 0, 25)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "Keys are important; this is a friends only UI anyway."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel.Parent = Key
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.609712243, 0, 0.204819292, 0)
+ImageLabel.Rotation = 11.000
+ImageLabel.Size = UDim2.new(0, 196, 0, 196)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=5977275277"
+ImageLabel.ImageTransparency = 0.950
+
+Check.Name = "Check"
+Check.Parent = Key
+Check.BackgroundColor3 = Color3.fromRGB(38, 42, 48)
+Check.Position = UDim2.new(0.0449640304, 0, 0.578313231, 0)
+Check.Size = UDim2.new(0, 59, 0, 26)
+Check.Font = Enum.Font.SourceSans
+Check.Text = "Check"
+Check.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check.TextSize = 14.000
+
+UICorner_3.Parent = Check
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+Main.Position = UDim2.new(-0.000612429401, 0, 0.934000015, 0)
+Main.Size = UDim2.new(0, 446, 0, 67)
+Main.Visible = false
+
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = Main
+
+Script.Name = "Script"
+Script.Parent = Main
+Script.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+Script.Position = UDim2.new(0.00134523679, 0, -2.67611933, 0)
+Script.Size = UDim2.new(0, 446, 0, 172)
+Script.Visible = false
+
+UICorner_5.Parent = Script
+
+ScrollingFrame.Parent = Script
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.227272928, 0)
+ScrollingFrame.Size = UDim2.new(0, 445, 0, 132)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
+
+UICorner_6.Parent = ScrollingFrame
+
+Inf.Name = "Inf"
+Inf.Parent = ScrollingFrame
+Inf.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf.BorderSizePixel = 0
+Inf.Position = UDim2.new(0.0201793723, 0, 0.0147506325, 0)
+Inf.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_5.Parent = Inf
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_5.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "Infinite Yield"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_6.Parent = Inf
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_6.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_6.Font = Enum.Font.Gotham
+TextLabel_6.Text = "Various Developers"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = Inf
+TextButton.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton.Size = UDim2.new(0, 80, 0, 33)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 15.000
+TextButton.TextWrapped = true
+
+UICorner_7.Parent = TextButton
+
+UICorner_8.Parent = Inf
+
+Vega.Name = "Vega"
+Vega.Parent = ScrollingFrame
+Vega.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Vega.BorderSizePixel = 0
+Vega.Position = UDim2.new(0.0201793723, 0, 0.0850994736, 0)
+Vega.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_7.Parent = Vega
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_7.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "FE Fling GUI"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_8.Parent = Vega
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_8.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_8.Font = Enum.Font.Gotham
+TextLabel_8.Text = "Various Developers"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_2.Parent = Vega
+TextButton_2.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_2.Size = UDim2.new(0, 80, 0, 33)
+TextButton_2.Font = Enum.Font.Gotham
+TextButton_2.Text = "Execute"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 15.000
+TextButton_2.TextWrapped = true
+
+UICorner_9.Parent = TextButton_2
+
+UICorner_10.Parent = Vega
+
+Inf_2.Name = "Inf"
+Inf_2.Parent = ScrollingFrame
+Inf_2.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_2.BorderSizePixel = 0
+Inf_2.Position = UDim2.new(0.0156849902, 0, 0.154285535, 0)
+Inf_2.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_9.Parent = Inf_2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_9.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_9.Font = Enum.Font.Gotham
+TextLabel_9.Text = "Sorl Hub"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_10.Parent = Inf_2
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_10.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_10.Font = Enum.Font.Gotham
+TextLabel_10.Text = "Various Developers"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_3.Parent = Inf_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_3.Size = UDim2.new(0, 80, 0, 33)
+TextButton_3.Font = Enum.Font.Gotham
+TextButton_3.Text = "Execute"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 15.000
+TextButton_3.TextWrapped = true
+
+UICorner_11.Parent = TextButton_3
+
+UICorner_12.Parent = Inf_2
+
+Inf_3.Name = "Inf"
+Inf_3.Parent = ScrollingFrame
+Inf_3.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_3.BorderSizePixel = 0
+Inf_3.Position = UDim2.new(0.0201793723, 0, 0.22230877, 0)
+Inf_3.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_11.Parent = Inf_3
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_11.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_11.Font = Enum.Font.Gotham
+TextLabel_11.Text = "Chat Bypasser"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_12.Parent = Inf_3
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_12.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_12.Font = Enum.Font.Gotham
+TextLabel_12.Text = "Various Developers"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_4.Parent = Inf_3
+TextButton_4.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_4.Size = UDim2.new(0, 80, 0, 33)
+TextButton_4.Font = Enum.Font.Gotham
+TextButton_4.Text = "Execute"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 15.000
+TextButton_4.TextWrapped = true
+
+UICorner_13.Parent = TextButton_4
+
+UICorner_14.Parent = Inf_3
+
+Inf_4.Name = "Inf"
+Inf_4.Parent = ScrollingFrame
+Inf_4.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_4.BorderSizePixel = 0
+Inf_4.Position = UDim2.new(0.0201793723, 0, 0.700797141, 0)
+Inf_4.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_13.Parent = Inf_4
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_13.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_13.Font = Enum.Font.Gotham
+TextLabel_13.Text = "Chat Bypasser"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_14.Parent = Inf_4
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_14.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_14.Font = Enum.Font.Gotham
+TextLabel_14.Text = "Various Developers"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_5.Parent = Inf_4
+TextButton_5.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_5.Size = UDim2.new(0, 80, 0, 33)
+TextButton_5.Font = Enum.Font.Gotham
+TextButton_5.Text = "Execute"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 15.000
+TextButton_5.TextWrapped = true
+
+UICorner_15.Parent = TextButton_5
+
+UICorner_16.Parent = Inf_4
+
+Inf_5.Name = "Inf"
+Inf_5.Parent = ScrollingFrame
+Inf_5.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_5.BorderSizePixel = 0
+Inf_5.Position = UDim2.new(0.0201793723, 0, 0.290913403, 0)
+Inf_5.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_15.Parent = Inf_5
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_15.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_15.Font = Enum.Font.Gotham
+TextLabel_15.Text = "Owl Hub"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_16.Parent = Inf_5
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_16.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_16.Font = Enum.Font.Gotham
+TextLabel_16.Text = "Various Developers"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_6.Parent = Inf_5
+TextButton_6.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_6.Size = UDim2.new(0, 80, 0, 33)
+TextButton_6.Font = Enum.Font.Gotham
+TextButton_6.Text = "Execute"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 15.000
+TextButton_6.TextWrapped = true
+
+UICorner_17.Parent = TextButton_6
+
+UICorner_18.Parent = Inf_5
+
+Bar.Name = "Bar"
+Bar.Parent = Script
+Bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(0, 0, 0.214285716, 0)
+Bar.Size = UDim2.new(0, 446, 0, 1)
+
+x.Name = "x"
+x.Parent = Script
+x.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+x.BorderSizePixel = 0
+x.Position = UDim2.new(0.930493295, 0, 0.0465116277, 0)
+x.Size = UDim2.new(0, 21, 0, 21)
+x.Font = Enum.Font.Gotham
+x.Text = "X"
+x.TextColor3 = Color3.fromRGB(255, 255, 255)
+x.TextScaled = true
+x.TextSize = 14.000
+x.TextWrapped = true
+
+xx.Name = "xx"
+xx.Parent = Script
+xx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+xx.BackgroundTransparency = 1.000
+xx.Position = UDim2.new(0.930493236, 0, 0.0174418613, 0)
+xx.Size = UDim2.new(0, 29, 0, 29)
+xx.Font = Enum.Font.SourceSans
+xx.TextColor3 = Color3.fromRGB(0, 0, 0)
+xx.TextSize = 14.000
+xx.TextTransparency = 1.000
+
+TextLabel_17.Parent = Main
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.0416588224, 0, 0.149253726, 0)
+TextLabel_17.Size = UDim2.new(0, 48, 0, 39)
+TextLabel_17.Font = Enum.Font.Gotham
+TextLabel_17.Text = "11:50"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 22.000
+TextLabel_17.TextWrapped = true
+TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+
+Universal.Name = "Universal"
+Universal.Parent = Main
+Universal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Universal.BackgroundTransparency = 1.000
+Universal.Position = UDim2.new(0.924573958, 0, 0.25709191, 0)
+Universal.Size = UDim2.new(0, 24, 0, 24)
+Universal.Image = "http://www.roblox.com/asset/?id=4492476121"
+
+GamesB.Name = "GamesB"
+GamesB.Parent = Main
+GamesB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamesB.BackgroundTransparency = 1.000
+GamesB.Position = UDim2.new(0.854260087, 0, 0.25709191, 0)
+GamesB.Size = UDim2.new(0, 24, 0, 24)
+GamesB.Image = "http://www.roblox.com/asset/?id=2038928570"
+
+Games.Name = "Games"
+Games.Parent = Main
+Games.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+Games.Position = UDim2.new(0.00134523679, 0, -2.67611933, 0)
+Games.Size = UDim2.new(0, 446, 0, 172)
+Games.Visible = false
+
+UICorner_19.Parent = Games
+
+ScrollingFrame_2.Parent = Games
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Position = UDim2.new(0, 0, 0.227272928, 0)
+ScrollingFrame_2.Size = UDim2.new(0, 445, 0, 132)
+ScrollingFrame_2.CanvasSize = UDim2.new(0, 0, 5, 0)
+
+UICorner_20.Parent = ScrollingFrame_2
+
+Inf_6.Name = "Inf"
+Inf_6.Parent = ScrollingFrame_2
+Inf_6.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_6.BorderSizePixel = 0
+Inf_6.Position = UDim2.new(0.0201793723, 0, 0.0147506325, 0)
+Inf_6.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_18.Parent = Inf_6
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_18.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_18.Font = Enum.Font.Gotham
+TextLabel_18.Text = "Arsenal"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_19.Parent = Inf_6
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_19.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_19.Font = Enum.Font.Gotham
+TextLabel_19.Text = "Various Developers"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_7.Parent = Inf_6
+TextButton_7.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_7.Size = UDim2.new(0, 80, 0, 33)
+TextButton_7.Font = Enum.Font.Gotham
+TextButton_7.Text = "Execute"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 15.000
+TextButton_7.TextWrapped = true
+
+UICorner_21.Parent = TextButton_7
+
+UICorner_22.Parent = Inf_6
+
+Vega_2.Name = "Vega"
+Vega_2.Parent = ScrollingFrame_2
+Vega_2.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Vega_2.BorderSizePixel = 0
+Vega_2.Position = UDim2.new(0.0201793723, 0, 0.0850994736, 0)
+Vega_2.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_20.Parent = Vega_2
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_20.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_20.Font = Enum.Font.Gotham
+TextLabel_20.Text = "Murder Mystery 2"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextWrapped = true
+TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_21.Parent = Vega_2
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_21.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_21.Font = Enum.Font.Gotham
+TextLabel_21.Text = "Various Developers"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextWrapped = true
+TextLabel_21.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_8.Parent = Vega_2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_8.Size = UDim2.new(0, 80, 0, 33)
+TextButton_8.Font = Enum.Font.Gotham
+TextButton_8.Text = "Execute"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 15.000
+TextButton_8.TextWrapped = true
+
+UICorner_23.Parent = TextButton_8
+
+UICorner_24.Parent = Vega_2
+
+Inf_7.Name = "Inf"
+Inf_7.Parent = ScrollingFrame_2
+Inf_7.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_7.BorderSizePixel = 0
+Inf_7.Position = UDim2.new(0.0156849902, 0, 0.154285535, 0)
+Inf_7.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_22.Parent = Inf_7
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_22.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_22.Font = Enum.Font.Gotham
+TextLabel_22.Text = "Club Iris"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextWrapped = true
+TextLabel_22.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_23.Parent = Inf_7
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_23.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_23.Font = Enum.Font.Gotham
+TextLabel_23.Text = "Various Developers"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextWrapped = true
+TextLabel_23.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_9.Parent = Inf_7
+TextButton_9.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_9.Size = UDim2.new(0, 80, 0, 33)
+TextButton_9.Font = Enum.Font.Gotham
+TextButton_9.Text = "Execute"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 15.000
+TextButton_9.TextWrapped = true
+
+UICorner_25.Parent = TextButton_9
+
+UICorner_26.Parent = Inf_7
+
+Inf_8.Name = "Inf"
+Inf_8.Parent = ScrollingFrame_2
+Inf_8.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_8.BorderSizePixel = 0
+Inf_8.Position = UDim2.new(0.0201793723, 0, 0.22230877, 0)
+Inf_8.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_24.Parent = Inf_8
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_24.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_24.Font = Enum.Font.Gotham
+TextLabel_24.Text = "Da Hood"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
+TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_25.Parent = Inf_8
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_25.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_25.Font = Enum.Font.Gotham
+TextLabel_25.Text = "Various Developers"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextScaled = true
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextWrapped = true
+TextLabel_25.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_10.Parent = Inf_8
+TextButton_10.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_10.Size = UDim2.new(0, 80, 0, 33)
+TextButton_10.Font = Enum.Font.Gotham
+TextButton_10.Text = "Execute"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 15.000
+TextButton_10.TextWrapped = true
+
+UICorner_27.Parent = TextButton_10
+
+UICorner_28.Parent = Inf_8
+
+Inf_9.Name = "Inf"
+Inf_9.Parent = ScrollingFrame_2
+Inf_9.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_9.BorderSizePixel = 0
+Inf_9.Position = UDim2.new(0.0201793723, 0, 0.700797141, 0)
+Inf_9.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_26.Parent = Inf_9
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_26.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_26.Font = Enum.Font.Gotham
+TextLabel_26.Text = "Chat Bypasser"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextScaled = true
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextWrapped = true
+TextLabel_26.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_27.Parent = Inf_9
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_27.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_27.Font = Enum.Font.Gotham
+TextLabel_27.Text = "Various Developers"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextScaled = true
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextWrapped = true
+TextLabel_27.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_11.Parent = Inf_9
+TextButton_11.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_11.Size = UDim2.new(0, 80, 0, 33)
+TextButton_11.Font = Enum.Font.Gotham
+TextButton_11.Text = "Execute"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 15.000
+TextButton_11.TextWrapped = true
+
+UICorner_29.Parent = TextButton_11
+
+UICorner_30.Parent = Inf_9
+
+Inf_10.Name = "Inf"
+Inf_10.Parent = ScrollingFrame_2
+Inf_10.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+Inf_10.BorderSizePixel = 0
+Inf_10.Position = UDim2.new(0.0201793723, 0, 0.290913403, 0)
+Inf_10.Size = UDim2.new(0, 428, 0, 59)
+
+TextLabel_28.Parent = Inf_10
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(0.0210280381, 0, 0.186440676, 0)
+TextLabel_28.Size = UDim2.new(0, 255, 0, 19)
+TextLabel_28.Font = Enum.Font.Gotham
+TextLabel_28.Text = "Bedwars"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextScaled = true
+TextLabel_28.TextSize = 14.000
+TextLabel_28.TextWrapped = true
+TextLabel_28.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_29.Parent = Inf_10
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(0.0210280381, 0, 0.508474588, 0)
+TextLabel_29.Size = UDim2.new(0, 109, 0, 18)
+TextLabel_29.Font = Enum.Font.Gotham
+TextLabel_29.Text = "Various Developers"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextScaled = true
+TextLabel_29.TextSize = 14.000
+TextLabel_29.TextWrapped = true
+TextLabel_29.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_12.Parent = Inf_10
+TextButton_12.BackgroundColor3 = Color3.fromRGB(25, 27, 31)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.782710254, 0, 0.220338985, 0)
+TextButton_12.Size = UDim2.new(0, 80, 0, 33)
+TextButton_12.Font = Enum.Font.Gotham
+TextButton_12.Text = "Execute"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 15.000
+TextButton_12.TextWrapped = true
+
+UICorner_31.Parent = TextButton_12
+
+UICorner_32.Parent = Inf_10
+
+Bar_2.Name = "Bar"
+Bar_2.Parent = Games
+Bar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bar_2.BorderSizePixel = 0
+Bar_2.Position = UDim2.new(0, 0, 0.214285716, 0)
+Bar_2.Size = UDim2.new(0, 446, 0, 1)
+
+x_2.Name = "x"
+x_2.Parent = Games
+x_2.BackgroundColor3 = Color3.fromRGB(14, 15, 18)
+x_2.BorderSizePixel = 0
+x_2.Position = UDim2.new(0.930493295, 0, 0.0465116277, 0)
+x_2.Size = UDim2.new(0, 21, 0, 21)
+x_2.Font = Enum.Font.Gotham
+x_2.Text = "X"
+x_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+x_2.TextScaled = true
+x_2.TextSize = 14.000
+x_2.TextWrapped = true
+
+xx_2.Name = "xx"
+xx_2.Parent = Games
+xx_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+xx_2.BackgroundTransparency = 1.000
+xx_2.Position = UDim2.new(0.930493236, 0, 0.0174418613, 0)
+xx_2.Size = UDim2.new(0, 29, 0, 29)
+xx_2.Font = Enum.Font.SourceSans
+xx_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+xx_2.TextSize = 14.000
+xx_2.TextTransparency = 1.000
+
+-- Scripts:
+
+local function MTGSM_fake_script() -- Key.Dragger 
+	local script = Instance.new('LocalScript', Key)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	local TopBar = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		if input.Position.Y < TopBar.AbsolutePosition.Y + TopBar.AbsoluteSize.Y then
+			local delta = input.Position - dragStart
+			gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and input.Position.Y < TopBar.AbsolutePosition.Y + TopBar.AbsoluteSize.Y then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(MTGSM_fake_script)()
+local function EDJQZMC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	script.Parent.Key.Check.MouseButton1Click:Connect(function()
+		if script.Parent.Key.Key.Text == "f11" then
+		script.Parent.Key:Destroy()
+		script.Parent.Main.Visible=true
+	end
+	end)
+	
+	--main
+	
+	local main = script.Parent.Main
+	
+	--main buttons
+	main.Universal.MouseButton1Click:Connect(function()
+		main.Script.Visible=true
+		main.Games.Visible=false
+	end)
+	
+	main.Script.xx.MouseButton1Click:Connect(function()
+		main.Script.Visible=false
+	end)
+	
+	main.GamesB.MouseButton1Click:Connect(function()
+		main.Script.Visible=false
+		main.Games.Visible=true
+	end)
+	
+	main.Games.xx.MouseButton1Click:Connect(function()
+		main.Games.Visible=false
+	end)
+end
+coroutine.wrap(EDJQZMC_fake_script)()
+local function HMINZO_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(HMINZO_fake_script)()
+local function BYADM_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+	end)
+end
+coroutine.wrap(BYADM_fake_script)()
+local function YTGTXZ_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/yt-flix/cord-hubv1/main/lua-mainflixcord", true))()
+	end)
+end
+coroutine.wrap(YTGTXZ_fake_script)()
+local function OXSGK_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+	end)
+end
+coroutine.wrap(OXSGK_fake_script)()
+local function YOPHOE_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+	end)
+end
+coroutine.wrap(YOPHOE_fake_script)()
+local function OTQAPCQ_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(OTQAPCQ_fake_script)()
+local function RVUD_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(RVUD_fake_script)()
+local function CSYJNE_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+	end)
+end
+coroutine.wrap(CSYJNE_fake_script)()
+local function UMNIQ_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Altix-dev/Shaltix-s-Hub/master/Hub.lua", true))()
+	end)
+end
+coroutine.wrap(UMNIQ_fake_script)()
+local function VTEQGQY_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/VaultGitos/Others/main/Da%20Hood%20Shoe%20AutoFarm.lua", true))()
+	end)
+end
+coroutine.wrap(VTEQGQY_fake_script)()
+local function JLCFUI_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+	end)
+end
+coroutine.wrap(JLCFUI_fake_script)()
+local function WTLJ_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end)
+end
+coroutine.wrap(WTLJ_fake_script)()
