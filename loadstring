@@ -1,13 +1,5 @@
---Hazeldox#6530
-
-
-
-
-
-
-
-
-
+-- Gui to Lua
+-- Version: 3.2
 
 -- Instances:
 
@@ -938,7 +930,7 @@ xx_2.TextTransparency = 1.000
 
 -- Scripts:
 
-local function MTGSM_fake_script() -- Key.Dragger 
+local function SVHANQ_fake_script() -- Key.Dragger 
 	local script = Instance.new('LocalScript', Key)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -984,8 +976,8 @@ local function MTGSM_fake_script() -- Key.Dragger
 		end
 	end)
 end
-coroutine.wrap(MTGSM_fake_script)()
-local function EDJQZMC_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(SVHANQ_fake_script)()
+local function AUKXQSO_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Key.Check.MouseButton1Click:Connect(function()
@@ -1018,100 +1010,100 @@ local function EDJQZMC_fake_script() -- ScreenGui.LocalScript
 		main.Games.Visible=false
 	end)
 end
-coroutine.wrap(EDJQZMC_fake_script)()
-local function HMINZO_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(AUKXQSO_fake_script)()
+local function VGJJNIH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(HMINZO_fake_script)()
-local function BYADM_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(VGJJNIH_fake_script)()
+local function SKEXQJ_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 	end)
 end
-coroutine.wrap(BYADM_fake_script)()
-local function YTGTXZ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(SKEXQJ_fake_script)()
+local function ALFJORO_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/yt-flix/cord-hubv1/main/lua-mainflixcord", true))()
 	end)
 end
-coroutine.wrap(YTGTXZ_fake_script)()
-local function OXSGK_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(ALFJORO_fake_script)()
+local function DGSRNZN_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(OXSGK_fake_script)()
-local function YOPHOE_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(DGSRNZN_fake_script)()
+local function KUZDHR_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(YOPHOE_fake_script)()
-local function OTQAPCQ_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(KUZDHR_fake_script)()
+local function ZBMO_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(OTQAPCQ_fake_script)()
-local function RVUD_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(ZBMO_fake_script)()
+local function LHYWPRH_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(RVUD_fake_script)()
-local function CSYJNE_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(LHYWPRH_fake_script)()
+local function AXOST_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
 	end)
 end
-coroutine.wrap(CSYJNE_fake_script)()
-local function UMNIQ_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(AXOST_fake_script)()
+local function WICGBD_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Altix-dev/Shaltix-s-Hub/master/Hub.lua", true))()
 	end)
 end
-coroutine.wrap(UMNIQ_fake_script)()
-local function VTEQGQY_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(WICGBD_fake_script)()
+local function SICHN_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/VaultGitos/Others/main/Da%20Hood%20Shoe%20AutoFarm.lua", true))()
 	end)
 end
-coroutine.wrap(VTEQGQY_fake_script)()
-local function JLCFUI_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(SICHN_fake_script)()
+local function MRBDQLN_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(JLCFUI_fake_script)()
-local function WTLJ_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(MRBDQLN_fake_script)()
+local function AMGGJ_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 	end)
 end
-coroutine.wrap(WTLJ_fake_script)()
+coroutine.wrap(AMGGJ_fake_script)()
